@@ -5,7 +5,7 @@ function Academics() {
     <div className="left-space">
       <h2>Academics</h2>
       {/* Add a class to the img tag for size control */}
-      <img src="academic_prof.png" alt="Academics" className="academic-image" />
+      <img src="/COGS125/academic_prof.png" alt="Academics" className="academic-image" />
       <p>
         Here's a description of my academic background and projects.
       </p>
@@ -17,6 +17,27 @@ function Academics() {
 }
 
 export default Academics;
+
+// images working locally but not for deployment
+// import React from 'react';
+
+// function Academics() {
+//   return (
+//     <div className="left-space">
+//       <h2>Academics</h2>
+//       {/* Add a class to the img tag for size control */}
+//       <img src="academic_prof.png" alt="Academics" className="academic-image" />
+//       <p>
+//         Here's a description of my academic background and projects.
+//       </p>
+//       <a href="3.S2_React!.pdf" target="_blank" rel="noopener noreferrer">
+//         Cogs 125 Project
+//       </a>
+//     </div>
+//   );
+// }
+
+// export default Academics;
 
 
 // without resizing image

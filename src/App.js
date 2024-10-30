@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Academics from './Academics';
 import Work from './Work';
 import Research from './Research';
@@ -26,7 +26,7 @@ function App() {
           <nav className="left-space">
             <ul>
               <li><Link to="/academics">Academics</Link></li>
-              <li><Link to="/work">Work</Link></li>
+              <li><Link to="/work">Experience</Link></li>
               <li><Link to="/research">Research</Link></li>
               <li><Link to="/ainews">AI News</Link></li>
             </ul>
