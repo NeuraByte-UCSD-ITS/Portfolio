@@ -1,4 +1,137 @@
+/* Existing styles */
 .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New styles for centering the content and adding margin to the left */
+.center-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Add margin on the left for the remaining sections */
+.left-space {
+  margin-left: 20px;
+}
+
+/* New class to control the image size in Academics */
+.academic-image {
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 20px; /* Optional: Adds space below the image */
+}
+
+/* New class to control the image size in Work */
+.work-image {
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 20px; /* Optional: Adds space below the image */
+}
+
+/* New class to control the image size in Research */
+.research-image {
+  width: 400px; /* Adjust width as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 20px; /* Optional: Adds space below the image */
+}
+
+/* New class to control the image size in AI News */
+.ai-image {
+  width: 400px; /* Adjust width as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 20px; /* Optional: Adds space below the image */
+}
+
+/* without resizing */
+/* Existing styles */
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New styles for centering the content and adding margin to the left */
+/*.center-content {
+  text-align: center;
+  margin-bottom: 20px;
+}*/
+
+/* Add margin on the left for the remaining sections */
+/*.left-space {
+  margin-left: 20px;
+}*/
+
+
+/* initial working setup*/
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +168,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
